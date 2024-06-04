@@ -388,6 +388,9 @@ legend {
   color: var(--accent);
   border-bottom: 1px solid var(--accent);
 }
+.footer__active:hover {
+  opacity: 1;
+}
 
 .footer__socials {
   display: flex;

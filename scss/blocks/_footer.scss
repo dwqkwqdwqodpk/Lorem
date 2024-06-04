@@ -32,6 +32,10 @@
 .footer__active {
 	color: var(--accent);
 	border-bottom: 1px solid var(--accent);
+
+	&:hover {
+		opacity: 1;
+	}
 }
 
 .footer__socials {
