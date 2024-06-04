@@ -1,0 +1,45 @@
+.tickers {
+	height: 100%;
+	width: 338px;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+}
+
+.ticker__wrap-ul {
+}
+
+@keyframes ticker-slide {
+	0% {
+		transform: translateY(0%);
+	}
+	100% {
+		transform: translateY(-100%);
+	}
+} /*# sourceMappingURL=main.css.map */
+
+@keyframes ticker-slide2 {
+	0% {
+		transform: translateY(-100%);
+	}
+	100% {
+		transform: translateY(0%);
+	}
+}
+
+.ticker__item {
+	padding: 10px 0;
+	width: fit-content;
+}
+.ticker__wrap-1 ul {
+	animation: ticker-slide 7s linear infinite;
+	opacity: 20%;
+}
+.ticker__wrap-2 ul {
+	animation: ticker-slide2 7s linear infinite;
+	opacity: 60%;
+}
+.ticker__wrap-3 ul {
+	animation: ticker-slide 10s linear infinite;
+	opacity: 40%;
+}
