@@ -207,6 +207,7 @@ legend {
   bottom: 0;
   border-radius: 50%;
   background: linear-gradient(to bottom, #f99247, #f29da2);
+  pointer-events: none;
 }
 
 .banner-text {
@@ -389,7 +390,7 @@ legend {
   border-bottom: 1px solid var(--accent);
 }
 .footer__active:hover {
-  opacity: 1;
+  opacity: 1 !important;
 }
 
 .footer__socials {
