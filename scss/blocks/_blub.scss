@@ -31,11 +31,12 @@
 
 	&::-webkit-scrollbar-thumb {
 		background-color: var(--accent);
+		border-radius: 150px	;
 	}
 }
 
 .blub__item {
-	padding: 16px 64px;
+	padding: 16px 74px;
 	border-radius: 196px;
 	background-color: var(--bred);
 	margin-bottom: 16px;

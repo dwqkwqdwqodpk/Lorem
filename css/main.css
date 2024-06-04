@@ -1,8 +1,8 @@
 @font-face {
   font-family: "Lexend";
-  src: url(./fonts/Lexend-Medium.ttf);
-  src: url(./fonts/Lexend-Regular.ttf);
-  src: url(./fonts/Lexend-SemiBold.ttf);
+  src: url(../fonts/Lexend-Regular.ttf);
+  src: url(../fonts/Lexend-Medium.ttf);
+  src: url(../fonts/Lexend-SemiBold.ttf);
   font-style: normal;
   font-weight: normal;
 }
@@ -332,10 +332,11 @@ legend {
 }
 .blub__wrapper::-webkit-scrollbar-thumb {
   background-color: var(--accent);
+  border-radius: 150px;
 }
 
 .blub__item {
-  padding: 16px 64px;
+  padding: 16px 74px;
   border-radius: 196px;
   background-color: var(--bred);
   margin-bottom: 16px;
