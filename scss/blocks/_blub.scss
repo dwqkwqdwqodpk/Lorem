@@ -1,10 +1,13 @@
 .blub {
 	max-width: 531px;
-	justify-self: flex-end;
+
+	@media (max-width: 1024px) {
+		margin-bottom: 72px;
+	}
 }
 
 .blub__title {
-	font-size: 40px;
+	font-size: clamp(2.188rem, 1.83rem + 0.56vw, 2.5rem);
 	text-align: center;
 	margin-bottom: 24px;
 	font-weight: 600;
@@ -14,8 +17,12 @@
 	padding: 0 16px 0 24px;
 	border: 1px solid var(--accent);
 	background-color: rgb(255, 255, 255, 0.12);
-	border-radius: 100px;
+	border-radius: clamp(3.125rem, 2.232rem + 4.46vw, 6.25rem);
 	overflow: hidden;
+
+	@media (max-width: 1024px) {
+		height: 500px;
+	}
 }
 
 .blub__wrapper {
@@ -23,6 +30,7 @@
 	max-height: 600px;
 	overflow-x: hidden;
 	position: relative;
+	text-align: start;
 
 	&::-webkit-scrollbar {
 		background-color: rgb(255, 255, 255, 0.12);
@@ -33,11 +41,18 @@
 		background-color: var(--accent);
 		border-radius: 150px;
 	}
+
+	@media (max-width: 1440px) {
+		max-height: 450px;
+	}
+	@media (max-width: 1024px) {
+		max-height: 500px;
+	}
 }
 
 .blub__item {
-	padding: 16px 74px;
-	border-radius: 196px;
+	padding: 16px clamp(2.188rem, 1.67rem + 2.59vw, 4rem);
+	border-radius: clamp(2.813rem, 0.116rem + 13.48vw, 12.25rem);
 	background-color: var(--bred);
 	margin-bottom: 16px;
 	margin-right: 8px;
@@ -48,8 +63,8 @@
 }
 
 .blub__text {
-	font-size: 24px;
-	line-height: 28px;
+	font-size: clamp(1rem, -0.231rem + 1.92vw, 1.5rem);
+	line-height: clamp(1rem, -0.846rem + 2.88vw, 1.75rem);
 	margin-bottom: 14px;
 }
 .blub__date {

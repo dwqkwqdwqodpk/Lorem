@@ -1,9 +1,9 @@
 .tickers {
 	height: 100%;
-	width: 338px;
 	position: relative;
 	overflow: hidden;
 	display: flex;
+	min-width: 240px;
 }
 
 .ticker__wrap-ul {
@@ -43,3 +43,4 @@
 	animation: ticker-slide 10s linear infinite;
 	opacity: 40%;
 }
+
