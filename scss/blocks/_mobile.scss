@@ -1,8 +1,11 @@
 .header__user {
 	@media (max-width: 1000px) {
-        button, a {
-            flex-shrink: 0;
-        }
+		a {
+			flex-shrink: 0;
+		}
+		button {
+			display: none;
+		}
 	}
 }
 
@@ -23,7 +26,7 @@
 .mobile__buttons {
 	display: flex;
 	justify-content: flex-end;
-    gap: 15px;
+	gap: 15px;
 }
 
 .mobile__lang {
@@ -33,4 +36,3 @@
 		padding: 8px;
 	}
 }
-

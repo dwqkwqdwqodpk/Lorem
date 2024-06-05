@@ -508,8 +508,11 @@ legend {
 }
 
 @media (max-width: 1000px) {
-  .header__user button, .header__user a {
+  .header__user a {
     flex-shrink: 0;
+  }
+  .header__user button {
+    display: none;
   }
 }
 
