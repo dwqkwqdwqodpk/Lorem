@@ -226,9 +226,10 @@ legend {
   background: linear-gradient(to bottom, #f99247, #f29da2);
   pointer-events: none;
 }
-@media (min-width: 2000px) {
+@media (min-height: 1300px) {
   .banner {
-    min-height: 50vh;
+    justify-content: space-around;
+    min-height: 100vh;
   }
 }
 @media (max-width: 1450px) {
@@ -241,7 +242,8 @@ legend {
     margin-top: 70px;
     flex-direction: column;
     text-align: center;
-    height: 1436px;
+    height: 100vh;
+    min-height: 1436px;
   }
 }
 
@@ -551,7 +553,6 @@ legend {
 @media (max-width: 1024px) {
   .tickers__X {
     display: block;
-    height: 100%;
     width: 100%;
     overflow: hidden;
   }
