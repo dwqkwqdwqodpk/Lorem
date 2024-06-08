@@ -12,10 +12,15 @@ body {
 	background-color: #191d0a;
 	font-family: 'Lexend';
 	font-weight: 400;
+	padding-top: 10px;
 }
 
 .container {
 	max-width: 1940px;
 	padding: 0 10px;
 	margin: 0 auto;
+}
+
+.hide {
+	overflow: hidden;
 }
