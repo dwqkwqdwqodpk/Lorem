@@ -59,6 +59,10 @@
 	@media (max-width: 600px) {
 		display: none;
 	}
+
+	p {
+		text-transform: uppercase;
+	}
 }
 
 .login {
@@ -99,11 +103,4 @@
 		transition: all 0.2s ease-in;
 	}
 
-	&:hover {
-		color: var(--accent);
-		border: 2px solid var(--accent);
-		p {
-			color: var(--accent);
-		}
-	}
 }
